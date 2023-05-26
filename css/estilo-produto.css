@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family= Jua & display=swap');
+body{
+    font-size: 100%;
+    background: #FFFFFF;;
+}
+.cabecalho{
+    background: #A7D743;
+    display: flex;
+    height: 135px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.cabecalho-logo{
+    display: flex;
+   width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    margin-left: 60px;
+    box-sizing: border-box;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.conteudo-esquerda{
+    width: 426px;
+    height: 426px;
+    background: #EBF5CF;
+    border-radius: 37px;
+    padding: 30px;
+}
+.conteudo-direita{
+    width: 626px;
+    height: 400px;
+    background: #EBF5CF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.titulo-produto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2F4858;
+    width: 397px;
+    height: 48px;
+}
+.peso-produto{
+    margin-right: 330px;
+    display: flex;
+    align-items: flex-start;
+    width: 64px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F4858;
+}
+.valor-produto{
+    width: 64px;
+    height: 29px;
+    margin-right: 330px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F4858;
+
+
+}
+.botao-comprar{
+    width: 313px;
+    height: 58px;
+    background-color: #DF2A2A;
+    text-align: center;
+    color:#FFFFFF;
+    border-radius: 20px;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+}
