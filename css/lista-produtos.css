@@ -1,0 +1,70 @@
+.cabecalho{
+    background: #A7D743;
+    display: flex;
+    height: 135px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.cabecalho-logo{
+    display: flex;
+   width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    margin-left: 60px;
+    box-sizing: border-box;
+}
+.container {
+	margin-top: 40px;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px;
+    justify-items: center;
+}
+
+.container-detalhe {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	padding: 20px;
+    justify-items: center;
+}
+
+.card {
+	background-color:#EBF5CF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	min-height: 300px;
+	min-width: 400px;
+    max-width: 70%;
+	padding: 20px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+}
+.card > h3 >a{
+    text-decoration: none;
+    color: black;
+}
+.card img {
+	padding: 10px;
+    width: 250px;
+    border-radius: 50%;
+    border:5px solid #b9f971;
+    margin:10px;
+    background-color: #FFFF;
+    
+}
+.card :hover img  {
+	
+   background-color:rgba(252, 235, 139, 0.821);
+    
+}
+.rodape{
+    background: #A7D743;
+    width: 1400px;
+    height: 90px;
+}
